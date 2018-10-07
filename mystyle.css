@@ -1,0 +1,54 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.sidebar{
+	width: 10%;
+	height: 500px;
+	background: #e8f6f3;
+	position: fixed;
+	top: 0px;
+}
+
+.sidebar img{
+	width: 100px;
+	margin: 10px 90px 10px 10px;
+	border-radius: 5px;
+}
+
+.sidebar a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	margin-left: 5px;
+}
+
+.sidebar a:hover{
+	font-size: 17px;
+	color: green;
+}
+
+.mybody{
+	width: 80%;
+	margin-left: 15%;
+}
+
+.mainbody{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
+
+.mainbody .image{
+	box-shadow: 2px 5px 10px 1px black;
+	border-radius: 50%;
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+
+.mainbody .image img{
+	width: 100%;
+	border-radius: 50%;
+}
